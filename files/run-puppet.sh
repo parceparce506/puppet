@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/vagrant/puppet/ && git pull
-/usr/bin/puppet apply manifests/
+cd /etc/puppetlabs/code/environments/production && git pull
+/opt/puppetlabs/bin/puppet apply manifests/
 
 
